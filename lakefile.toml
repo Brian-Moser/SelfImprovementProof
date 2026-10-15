@@ -1,0 +1,10 @@
+name = "SelfImprovementProof"
+version = "0.1.0"
+defaultTargets = ["selfimprovementproof"]
+
+[[lean_lib]]
+name = "SelfImprovementProof"
+
+[[lean_exe]]
+name = "selfimprovementproof"
+root = "Main"
